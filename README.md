@@ -5,7 +5,7 @@ This program is a simple string parser to work with three APIs and work with var
 
 The program works as follows:
 
-node liri.js [command] [option]
+```node liri.js [command] [option]```
   
 The commands are:
 
