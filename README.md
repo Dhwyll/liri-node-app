@@ -32,6 +32,16 @@ The commands are:
 
 4)  do-what-it-says:  This will read the file, random.txt, and parse it for a command and an option.  In this case, the command is "spotify-this-song."
 
+For movie-this and spotify-this-song, there is no need to put the search string in quotes:
+
+```node liri.js spotify-this-song "Beat It"```
+
+and
+
+```node liri.js spotify-this-song Beat It```
+
+Will both work.
+
 Node packages used:
 
 * moment (to handle the time information from Twitter)
